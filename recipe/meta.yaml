@@ -1,13 +1,13 @@
 {% set name = "privacy-meter" %}
-{% set version = "1.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/privacy_meter-{{ version }}.tar.gz
-  sha256: c24a25f33b7bb15bc042ba211640bab4ed7c6e1f3ba93475e572aceb0550b147
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Privacy-Meter-{{ version }}.tar.gz
+  sha256: fe9c855b6080f2b3c2028a62ceca3700e53729734afa67c7f808f217e51928b1
 
 build:
   noarch: python
